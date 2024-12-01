@@ -1,3 +1,5 @@
+import Icon from "./Icon";
+
 export default function TechStack() {
   return (
     <>
@@ -21,7 +23,9 @@ export default function TechStack() {
           <h2>I also have skills with:</h2>
           <ul>
             <li>C#</li>
-            <li>HTML</li>
+            <li>
+              <Icon />
+            </li>
             <li>CSS</li>
             <li>JavaScript</li>
             <li>PostgreSQL</li>
