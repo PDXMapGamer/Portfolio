@@ -8,7 +8,7 @@ export default function TechStack() {
         <div className="collapse-title text-xl font-medium">The &apos;Stack.</div>
         <div className="collapse-content">
           <h2>This website was made with:</h2>
-          <ul>
+          <ul className="grid grid-cols-4">
             <li>Nextjs</li>
             <li>TailwindCSS</li>
             <li>TypeScript</li>
@@ -21,10 +21,10 @@ export default function TechStack() {
         <div className="collapse-title text-xl font-medium">Other Skills.</div>
         <div className="collapse-content">
           <h2>I also have skills with:</h2>
-          <ul>
+          <ul className="grid grid-cols-4 gap-y-4">
             <li>C#</li>
             <li>
-              <Icon />
+              <Icon icon="html" skill="HTML" />
             </li>
             <li>CSS</li>
             <li>JavaScript</li>

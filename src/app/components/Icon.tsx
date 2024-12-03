@@ -1,10 +1,11 @@
 import Image from "next/image";
 
-export default function Icon() {
+export default function Icon(props: { icon: string; skill: string }) {
+  const { icon, skill } = props;
   return (
-    <div>
-      <Image alt="Icon" src="/icons/html.png" width={50} height={50} />
-      <h2>HTML</h2>
+    <div className="inline-block">
+      <Image alt="Icon" src={`/icons/${icon}.png`} width={35} height={35} />
+      <h2>{skill}</h2>
     </div>
   );
 }
