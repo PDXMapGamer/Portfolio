@@ -8,7 +8,7 @@ export default function Home() {
     "I am an aspiring programmer who wants to take thier first steps into the tech industry and start a fufilling career and finance my hobbies and future career goals.";
   return (
     <>
-      <DropDown content={aboutMe} />
+      <DropDown title="About Me" content={aboutMe} links={[]} linkNames={[]} />
       <TechStack />
     </>
   );
