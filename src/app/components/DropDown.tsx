@@ -6,10 +6,8 @@ export default async function DropDown(props: {
   linkNames: string[];
   links: string[];
 }) {
-  const content = props.content;
-  const links = props.links;
-  const linkNames = props.linkNames;
-  const title = props.title;
+  const { content, links, linkNames, title } = props;
+
   return (
     <div className="collapse collapse-arrow border-base-300 bg-base-200 border mb-4">
       <input type="checkbox" />
