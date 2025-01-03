@@ -15,6 +15,9 @@ export default function NavBar() {
       <Link className="mr-4" href="/hobbies">
         My Hobbies
       </Link>
+      <Link className="mr-4" href="/bingo">
+        2025 Goals bingo
+      </Link>
     </nav>
   );
 }
