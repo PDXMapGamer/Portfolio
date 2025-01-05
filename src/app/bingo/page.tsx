@@ -12,7 +12,7 @@ export default function Bingo() {
         <BingoItem content="Try learning 5 new programming languages" isFulfilled={false} notes="0/5" />
         <BingoItem content="Complete 5 react projects" isFulfilled={false} notes="0/5" />
         <BingoItem content="Create a WoW addon" isFulfilled={false} notes="" />
-        <BingoItem content="28 day reading streak" isFulfilled={false} notes="3/28 (peak: 3/28)" />
+        <BingoItem content="28 day reading streak" isFulfilled={false} notes="4/28 (peak: 4/28)" />
         <BingoItem content="Complete 5 TypeScript projects" isFulfilled={false} notes="0/5" />
         <BingoItem content="28 day Bunpo streak" isFulfilled={false} notes="0/28" />
         <BingoItem content="Complete my portfolio page" isFulfilled={false} notes="" />
@@ -25,12 +25,13 @@ export default function Bingo() {
         <BingoItem content="Get a programming job" isFulfilled={false} notes="" />
         <BingoItem content="28 day coding challenge streak" isFulfilled={false} notes="0/28" />
         <BingoItem content="Learn how to cook" isFulfilled={false} notes="" />
-        <BingoItem content="28 day Github push streak*" isFulfilled={false} notes="2/28" />
+        <BingoItem content="28 day Github push streak*" isFulfilled={false} notes="3/28" />
         <BingoItem content="28 day anki streak" isFulfilled={false} notes="0/28" />
         <BingoItem content="Find a language exhange pen pal" isFulfilled={false} notes="" />
         <BingoItem content="Travel abroad" isFulfilled={false} notes="" />
         <BingoItem content="Pass JLPT N3 mock test" isFulfilled={false} notes="" />
       </div>
+      <p className="mt-4">*Github pushes from updating my bingo cards do not count</p>
     </>
   );
 }
