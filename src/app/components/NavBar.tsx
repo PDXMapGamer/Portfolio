@@ -6,9 +6,6 @@ export default function NavBar() {
       <Link className="mr-4" href="/">
         Homepage
       </Link>
-      <Link className="mr-4" href="/past-projects">
-        Previous Projects
-      </Link>
       <Link className="mr-4" href="/current-projects">
         Current Projects
       </Link>
