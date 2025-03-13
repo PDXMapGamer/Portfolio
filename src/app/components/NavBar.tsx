@@ -1,5 +1,5 @@
 import Link from "next/link";
-// todo Style links, have the current tab be a differant colour to the other links.
+// todo Style links, have the current tab be a different colour to the other links.
 export default function NavBar() {
   return (
     <nav className="mb-4">

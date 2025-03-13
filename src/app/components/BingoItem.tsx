@@ -1,6 +1,6 @@
 export default function BingoItem(props: { content: string; isFulfilled: boolean; notes: string }) {
   const { content, isFulfilled, notes } = props;
-  const stylings = "relative min-h-24"; //Ensures consistant stylings for cleared and uncleared goals
+  const stylings = "relative min-h-24"; //Ensures consistent stylings for cleared and uncleared goals
   return (
     <div className={isFulfilled ? `bg-green-500 ${stylings}` : `bg-gray-800 ${stylings}`}>
       <div>

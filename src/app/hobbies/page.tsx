@@ -3,7 +3,7 @@ import BookInfo from "../components/BookInfo";
 export default function Hobbies() {
   return (
     <>
-      <p>I like learning Japanese (hobbies page under contruction)</p>
+      <p>I like learning Japanese (hobbies page under construction)</p>
       <section id="reading-section">
         <h2>Reading Section</h2>
         <h3>Here is a list of books I am currently reading.</h3>
